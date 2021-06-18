@@ -6,8 +6,8 @@ namespace Num2WordConverter
     {
         static void Main(string[] args)
         {
-            var num1 = Console.ReadLine();
-            Console.WriteLine(new Num2Word().ConvertToWord(num1));
+            var num = Console.ReadLine();
+            Console.WriteLine(new Num2Word().ConvertToWord(num));
         }
     }
 }
